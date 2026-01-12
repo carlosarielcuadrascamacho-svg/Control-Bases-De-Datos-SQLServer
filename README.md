@@ -8,7 +8,7 @@ Una aplicación de escritorio desarrollada en **C# (Windows Forms)** diseñada p
 
 ### 🔐 Autenticación y Seguridad
 * **Inicio de Sesión (Login):** Conexión segura utilizando autenticación de SQL Server.
-* **Animación Interactiva:** El formulario de login incluye una animación visual que reacciona a la longitud del texto ingresado.
+* **Animación Interactiva:** El formulario de login incluye una animación visual que reacciona a la longitud del texto ingresado y al campo seleccionado.
 * **Gestión de Contraseñas:** Opción para visualizar u ocultar la contraseña.
 
 ### 👤 Gestión de Usuarios (Register)
@@ -28,13 +28,16 @@ Una aplicación de escritorio desarrollada en **C# (Windows Forms)** diseñada p
 
 ---
 
-## 📸 Capturas de Pantalla
+## 📸 Galería: Animación Interactiva (Login)
 
-*(Puedes agregar aquí capturas de pantalla de tu aplicación en funcionamiento. Ejemplo:)*
+El sistema cuenta con un personaje animado que reacciona a las acciones del usuario para mejorar la experiencia visual:
 
-| Login | Gestión de Tablas |
-|:---:|:---:|
-| ![Login Screenshot](url_a_tu_imagen_login.png) | ![Tablas Screenshot](url_a_tu_imagen_tablas.png) |
+| Estado | Captura de Pantalla | Descripción |
+|:---:|:---:|:---|
+| **Normal** | <img src="Imagenes/Normal.png" width="200"> | Estado inicial al abrir la aplicación. El personaje espera la interacción. |
+| **Escribiendo Usuario** | <img src="Imagenes/Viendo el usuario.png" width="200"> | Al escribir el usuario, el personaje sigue la longitud del texto con la mirada. |
+| **Ingresando Contraseña** | <img src="Imagenes/Cerrando ojos.png" width="200"> | Al seleccionar el campo de contraseña, el personaje se cubre los ojos por privacidad. |
+| **Visualizar Contraseña** | <img src="Imagenes/Viendo Contraseña.png" width="200"> | Si el usuario activa "SHOW", el personaje espía o cambia su estado. |
 
 ---
 
@@ -84,4 +87,9 @@ La solución está dividida en dos proyectos principales para mantener una separ
 ## ✒️ Autor
 
 * **Carlos Ariel Cuadras Camacho**
+
 ---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
