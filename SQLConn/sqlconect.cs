@@ -428,7 +428,7 @@ namespace SQLConn
         public bool IniciarSesion(string user, string pass)
         {
             bool id = false;
-            string conexion = $"Data Source = localhost; Initial Catalog = Master; User ID = {user}; Password = {pass}";
+            string conexion = $"Data Source=localhost;Initial Catalog=master;User ID={user};Password={pass};Encrypt=False;TrustServerCertificate=True;";
             try
             {
                 conection = new SqlConnection(conexion);
