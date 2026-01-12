@@ -89,7 +89,3 @@ La solución está dividida en dos proyectos principales para mantener una separ
 * **Carlos Ariel Cuadras Camacho**
 
 ---
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT.
